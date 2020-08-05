@@ -13,7 +13,6 @@ pipeline {
             	sh 'docker compose up'
             }
         }
-        
         post {
 	        always {
 	            echo 'One way or another, I have finished'
